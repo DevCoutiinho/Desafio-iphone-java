@@ -12,7 +12,6 @@ public class Contador {
         System.out.println("Digite o segundo número");
         int numero2 = scanner.nextInt();
 
-
     try{
         contar(numero1, numero2);
     }catch (ParametrosInvalidosException exception){
